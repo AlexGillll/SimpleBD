@@ -40,6 +40,7 @@ class My_simple_bd(object):
         except KeyError:
             print("No Value can be found for " + str(key))
             return False
+        
     def delete(self, key):
         if not key in self.bd:
             return False
